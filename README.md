@@ -4,22 +4,22 @@ This is a task where I need to create a dockerized deployment.
 
 
 # Step-by-step
-First of all after installing the Ubuntu Server version 22.04, we are going to update after entering in root mode
+* First of all after installing the Ubuntu Server version 22.04, we are going to update after entering in root mode
 
       sudo su | apt update 
 
 
-Then we are going to install CA certificates to verify SSL connections and adds and manages software sources
+* Then we are going to install CA certificates to verify SSL connections and adds and manages software sources
 
      apt install apt-transport-https ca-certificates curl software-properties-common 
 
 
-Adding Docker's Officel GPG Key
+  * Adding Docker's Officel GPG Key
 
      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
 
 
-Set up Docker Reporsitory
+* Set up Docker Reporsitory
 
      add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" 
 
