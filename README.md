@@ -82,4 +82,4 @@ Test the Tomcat server by navigating to https://localhost:4041 in your browser o
 
 Just to confirm tomcat is dockerized wea re going to open the browser and search:
       
-       "ip address:4041" 
+       "your_server_ip_address:4041" 
